@@ -320,7 +320,7 @@ async def conduct_lottery(participant_choices, all_casts):
 @bot.event
 async def on_message(message):
     global participant_choices, que, selected_casts, all_casts, user_teams
-    channel = bot.get_channel(1174980268046696599)
+    channel = bot.get_channel("送りたいチャンネルのID")
 
     if message.author.bot:
         return
