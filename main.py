@@ -409,5 +409,5 @@ async def randomword(ctx):
     random_word = random.choice(words)
     await ctx.send(random_word)
 
-token="MTE3NDUzMTUyMTI5MDQ0ODk1Nw.GBdMdR.Tg_ZSUEFacp95shpmuwWgO858WBjkDqxZ8JxN4"
+token="YOUR_API_TOKEN"
 bot.run(token)
