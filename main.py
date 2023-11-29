@@ -433,7 +433,7 @@ async def on_message(message):
 
                         
                         # Discordにアップロードする
-                        await channel.send(file=discord.File(image_file_path))
+                        # await channel.send(file=discord.File(image_file_path))
                         # 保存した画像を開く
                         # img = Image.open('draft_results.png')
 
